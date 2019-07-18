@@ -3,6 +3,8 @@ import { Route, Redirect, Link } from "react-router-dom";
 import './App.css';
 import Header from '../Header/Header';
 import Container from '../Container/Container';
+import Footer from '../Footer/Footer'
+import portfolio from '../../data/portfolio'
 
 export class App extends Component {
 
@@ -11,7 +13,8 @@ export class App extends Component {
     return (
       <main>
         <Header />
-        <Container data={[]}/>
+        <Container data={portfolio}/>
+        <Footer />
       </main>
     )
   }
