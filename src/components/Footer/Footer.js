@@ -8,8 +8,8 @@ import twitter from '../../images/twitter.png'
 const Footer = () => {
   return (
     <footer>
-      <a href="https://github.com/pgoulding" className="logos" alt="patrick goulding github page"><img alt="Icon made by https://www.flaticon.com/authors/dave-gandy" src={github}></img></a>
       <a href="https://www.linkedin.com/in/patrickgoulding/" className="logos" alt="patrick goulding linkedIN page"><img alt="" src={linkedIN}></img></a>
+      <a href="https://github.com/pgoulding" className="logos" alt="patrick goulding github page"><img alt="Icon made by https://www.flaticon.com/authors/dave-gandy" src={github}></img></a>
       <a href="twitter.com/p_goulding" className="logos" alt="patrick goulding twitter page"><img alt="Icon made by Freepik from www.flaticon.com" src={twitter}></img></a>
     </footer>
   )
