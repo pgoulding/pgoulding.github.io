@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Route, Redirect, Link } from "react-router-dom";
+import { Route, Link } from "react-router-dom";
 import './App.css';
 import Header from '../Header/Header';
 import Container from '../Container/Container';
@@ -11,9 +11,10 @@ export class App extends Component {
 
   populateRoutes = () => {
     return homePageLinks.map(link => {
+      let id = uuidv4()
       return (
-        <Route path={link.page_url} render={()=> (
-            <DetailedCard key={uuidv4()} detailData={link}/>
+        <Route key={id+1} path={link.page_url} render={()=> (
+            <DetailedCard key={id} detailData={link}/>
           )} 
         />
       )

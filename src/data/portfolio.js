@@ -86,11 +86,11 @@ export const homePageLinks = [
     title: 'Blog Posts',
     page_url:'/blog',
     image_url: blog_img,
-    description: '',
+    description: 'All my blog posts so far!',
     links: [
       {
-        title: '', 
-        url:''
+        title: 'What the Scope - Medium', 
+        url:'https://medium.com/@patrickgoulding/what-the-scope-7c6afba0f265'
       }
     ],
     id:4,
@@ -99,11 +99,11 @@ export const homePageLinks = [
     title: 'Recipes',
     page_url:'/recipes',
     image_url: recipe_img,
-    description: '',
+    description: 'I love to cook and trying out new recipes is my favorite way to relax and unwind. I do a lot of pickling/canning/preserving as well as making my own hot sauces, and infusions. I hope you\'ll try out a few!',
     links: [
       {
-        title: '', 
-        url:''
+        title: 'Strawberry basil infused vodka with lemonade.', 
+        url:'/recipes/strawberry-basil-lemonade'
       }
     ],
     id:5,
@@ -112,10 +112,12 @@ export const homePageLinks = [
     title: 'Hobbies',
     page_url: '/hobbies',
     image_url: motorcycle_img,
-    description: '',
+    description: 'I love to go camping, ride my motorcycle through the mountains, bike riding around town, creating new recipes, and snowboarding in the winter, checkout some of my photos!',
     links: [
-      {title: '', 
-      url:''}
+      {
+        title: 'Camping outside of Meredith, CO', 
+        url:'https://www.instagram.com/p/ByqWR4lgy75I0wBAtB5HQv5RxVETQCmqhEU2t00/'
+      }
     ],
     id: 6,
   }

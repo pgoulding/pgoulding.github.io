@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import './Footer.css'
 import linkedIN from '../../images/linkedin.png'
 import github from '../../images/github-logo.png'
