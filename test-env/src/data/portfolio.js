@@ -26,10 +26,10 @@ export const homePageLinks = [
     image_url: portfolio_img,
     description: 'Placeholder for Portfolio Descirption',
     links: [
-      { 
-        title: 'Cocktails and Dreams (React, Router, Redux, SCSS)', 
-        url:'https://github.com/pgoulding/coctail-recipes-app'
-      },
+      // { 
+      //   title: 'Cocktails and Dreams (React, Router, Redux, SCSS)', 
+      //   url:'https://github.com/pgoulding/coctail-recipes-app'
+      // },
       {
         title:'Netflix 2.Woah(React, Router, Redux, SCSS)',
         url:'https://github.com/pgoulding/Netflix-2.Woah'

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Route, Link } from "react-router-dom";
+import { HashRouter, Route, Link } from "react-router-dom";
 import './App.css';
 import Header from '../Header/Header';
 import Container from '../Container/Container';
@@ -23,16 +23,18 @@ export class App extends Component {
 
   render() {
     return (
-      <main>
-        <Link to="/">
-          <Header />
-        </Link>
-        <Route exact path="/" render={()=> (
-          <Container data={homePageLinks} />
-        )}/>
-        {this.populateRoutes()}
-        <Footer />
-      </main>
+      <HashRouter basename="/">
+        <main>
+          <Link to="/">
+            <Header />
+          </Link>
+          <Route exact path="/" render={()=> (
+            <Container data={homePageLinks} />
+            )}/>
+          {this.populateRoutes()}
+          <Footer />
+        </main>
+      </HashRouter>
     )
   }
 }
