@@ -1,0 +1,12 @@
+.detail-page {
+  padding:35px;
+  background-color: #007EA7;
+  border:2px solid #00A8E8;
+  border-radius: 5px;
+  width:80%;
+  margin: auto;
+}
+
+.detail-page >a {
+  display: block;
+}
