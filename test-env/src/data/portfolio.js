@@ -141,24 +141,24 @@ export const recipes = [
     title: 'Strawberry basil infused vodka with lemonade',
     page_url: '/recipes/strawberry-basil-lemonade',
     image_url:'',
-    description:''
+    description:'Recipe Incoming'
   },
   {
     title: 'Spicy Pickled Eggs',
     page_url: '/recipes/pickled-eggs',
     image_url: '',
-    description: ''
+    description: 'Recipe incoming'
   },
   {
     title: 'Hot Italian Giardinera',
     page_url: '/recipes/giardinera',
     image_url: '',
-    description: ''
+    description: 'Recipe Incoming'
   },
   {
     title: 'Dill Pickles',
     page_url: '/recipes/dill-pickles',
     image_url: '',
-    description: ''
+    description: 'Recipe Incoming'
   },
 ]
