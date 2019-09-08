@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { HashRouter, Route, Link } from "react-router-dom";
+import { Route, Link } from "react-router-dom";
 import './App.css';
 import Header from '../Header/Header';
 import Container from '../Container/Container';
@@ -35,7 +35,6 @@ export class App extends Component {
 
   render() {
     return (
-      <HashRouter basename="/">
         <main>
           <Link to="/">
             <Header />
@@ -47,7 +46,6 @@ export class App extends Component {
           {this.populateRecipes()}
           <Footer />
         </main>
-      </HashRouter>
     )
   }
 }
