@@ -1,5 +1,5 @@
 .detail-page {
-  padding:35px;
+  padding: 2px 35px 35px;
   background-color: #007EA7;
   border:2px solid #00A8E8;
   border-radius: 5px;
@@ -9,4 +9,8 @@
 
 .detail-page >a {
   display: block;
+}
+
+.detail-page > h2 {
+  margin-top: 0;
 }
