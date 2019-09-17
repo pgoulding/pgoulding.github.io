@@ -1,0 +1,23 @@
+.card {
+  padding:15px 20px;
+  background-color: #c7c6c6;
+  border:2px solid #b1b0b0;
+  border-radius: 5px;
+  a{
+    color:#00334e;
+  }
+}
+
+.card > img {  
+  width: 100%;
+  margin: auto;  
+  height: 160px;  
+  object-fit: cover;
+  /* border:3px solid #e8e8e8; */
+  border-radius: 5px;  
+}
+
+h3{
+  margin:0;
+  text-align: center;
+}
