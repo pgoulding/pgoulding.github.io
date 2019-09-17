@@ -1,9 +1,11 @@
 import React from 'react'
-import './DetailCard.css'
+import './DetailCard.scss'
 import uuidv4 from 'uuid'
 import { Link } from 'react-browser-router'
 
 const DetailedCard = ({detailData}) => {
+
+  
   return (
     <>
     <article className="detail-page">

@@ -1,12 +1,8 @@
 import React from 'react'
-import './Card.css'
+import './Card.scss'
 import  { Link } from 'react-browser-router'
 
 const Card = ({info}) => {
-  // const sendToNewPage =(e) => {
-  //   e.preventDefault()
-  //   return 
-  // }
 
   return (
     <div className='card'>
