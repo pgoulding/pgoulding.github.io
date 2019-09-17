@@ -25,7 +25,7 @@ export class App extends Component {
     return recipes.map(recipe => {
       let id = uuidv4()
       return (
-        <Route key={id + 2} path={recipe.page_url} render={() => (
+        <Route key={id + 2} path={'#' +recipe.page_url} render={() => (
             <DetailedCard key={id + 3} detailData={recipe} />
           )}
         />

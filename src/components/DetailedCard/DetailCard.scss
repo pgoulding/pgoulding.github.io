@@ -1,0 +1,19 @@
+.detail-page {
+  padding: 2px 35px 35px;
+  background-color: #c7c6c6;
+  border:2px solid #b1b0b0;
+  border-radius: 5px;
+  width:80%;
+  margin: 30px auto;
+  a{
+  display: block;
+  margin: 5px 0;
+  color:#00334e;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  h2{
+    margin-top: 0;
+  }
+}
